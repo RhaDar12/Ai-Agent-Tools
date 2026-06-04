@@ -1,0 +1,48 @@
+# Secrets / config
+.env
+*.env
+config/config.json
+config/*.secret.json
+
+# Runtime data
+logs/
+temp/
+queues/
+delivered/
+uploads/
+screenshots/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Media/generated files
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.ogg
+*.m4a
+
+# Large AI models
+models/
+*.safetensors
+*.ckpt
+*.pth
+*.onnx
+
+# WhatsApp/session/auth
+session/
+sessions/
+auth/
+auth_info/
+tokens/
+cookies/
