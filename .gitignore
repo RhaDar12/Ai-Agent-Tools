@@ -1,9 +1,55 @@
+# Secrets / config
+.env
+*.env
+config/config.json
+config/*.secret.json
+
+# Runtime data
+logs/
+temp/
+queues/
+delivered/
+uploads/
+screenshots/
+outputs/
+
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+
+# Media/generated files
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.ogg
+*.m4a
+
+# Large AI models
+models/
+*.safetensors
+*.ckpt
+*.pth
+*.onnx
+
+# WhatsApp/session/auth
+session/
+sessions/
+auth/
+auth_info/
+tokens/
+cookies/
+
+# project-specific
 *.pyo
 *.log
-*.bat
-*.ps1
 AI-Agentlogs/
 market_watch_log.txt
 send_file_whatsapp.py
@@ -13,5 +59,6 @@ test_*.py
 open_notepad*.py
 ketik_notepad*.py
 buka_notepad*.py
-*.md
 strategy_mock_test_tool.py
+*.bat
+*.ps1
