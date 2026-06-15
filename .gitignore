@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.bat
+*.ps1
+AI-Agentlogs/
+market_watch_log.txt
+send_file_whatsapp.py
+whatsapp_messages.py
+message_queue.py
+test_*.py
+open_notepad*.py
+ketik_notepad*.py
+buka_notepad*.py
+*.md
+strategy_mock_test_tool.py
